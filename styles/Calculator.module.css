@@ -1,0 +1,103 @@
+#calculator {
+    margin-top: 10px;
+    padding: 3rem;
+    border-radius: 2rem;
+    max-width: 50rem;
+    height: 25rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 840px) {
+    #calculator {
+        width: 100%;
+        height: auto;
+    }
+
+    .price {
+        flex-direction: column;
+    }
+}
+
+.textBox {
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: #f3f8fb;
+    border: none;
+    height: 2.5rem;
+    font-size: large;
+    text-align: end;
+    padding: 0.5rem;
+}
+
+.form {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.results {
+    color: white;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: #00474b;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#tip {
+    margin-top: 1.5rem;
+}
+
+.buttonGrid {
+    margin-top: 1rem;
+    gap: 1rem;
+    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price > h2 {
+    line-height: 0.8rem;
+    font-size: 1rem;
+}
+
+.price > h2 > h3 {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.price > div > h1 {
+    margin-top: 0;
+    padding-top: 0;
+    color: #2bbfad;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+
+.price > div {
+    margin-top: 10px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.currentTip {
+    letter-spacing: normal;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: large;
+}
