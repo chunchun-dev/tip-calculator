@@ -44,7 +44,7 @@ function Calculator() {
                 <Price text={'Tip amount'} price={tip.toFixed(2)}/>
                 <Price text={'Total'} price={total.toFixed(2)}/>
                 <div>
-                    <h1 className={styles.currentTip}>Current tip percent: {(tipMultiplier - 1).toFixed(2)}%</h1>
+                    <h1 className={styles.currentTip}>Current tip percent: {((tipMultiplier - 1)*100).toFixed(2)}%</h1>
                 </div>
             </div>
         </div>
